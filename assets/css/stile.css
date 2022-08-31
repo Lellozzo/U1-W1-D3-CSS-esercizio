@@ -61,3 +61,11 @@ figure {
 /* ELEMENTI NEL MAIN */
 
 /* FOOTER */
+
+footer {
+    background-color: #353434;
+    border-top-color: #00a0c6 ;
+    border-top: 10px;
+    border-top-style: solid;
+    text-align: center;
+}
