@@ -18,6 +18,7 @@ header {
 
 .card-titolo-tbianco {
     color: white;
+    font-variant: small-caps;
 }
 
 .card-titolo-tblu {
