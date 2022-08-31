@@ -1,7 +1,61 @@
 /* IMPOSTAZIONI GENERALI */
 
-/* HEADER */
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
 
+}
+/* HEADER */
+header {
+    background-color: #00a0c6;
+    height: 100vh;
+    max-height: 250px;
+    text-align: center;
+    border-bottom: 10px; 
+    border-bottom-color: #027695;
+    border-bottom-style: solid;
+}
+
+.card-titolo-tbianco {
+    color: white;
+}
+
+.card-titolo-tblu {
+    color: #00a0c6;
+    background-color: white;
+    
+}
+
+h1 {
+    font-size: 45px;
+    line-height:170%;
+}
+
+#card-titolo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: black;
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+    color: #027695;
+    font-size: 33px;
+    font-weight:500
+
+}
+
+figure {
+    text-align: center;  
+    
+}
+
+.imageborder {
+  border: 2px solid #d8d9d9;
+  padding: 18px;
+}
 /* MAIN */
 
 /* ELEMENTI NEL MAIN */
