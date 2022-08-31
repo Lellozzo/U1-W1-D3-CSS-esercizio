@@ -1,9 +1,15 @@
 /* IMPOSTAZIONI GENERALI */
 
+
 body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
 
+}
+
+div {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 /* HEADER */
 header {
@@ -18,7 +24,6 @@ header {
 
 .card-titolo-tbianco {
     color: white;
-    font-variant: small-caps;
 }
 
 .card-titolo-tblu {
@@ -34,10 +39,10 @@ h1 {
 
 #card-titolo {
     text-align: center;
-    text-transform: uppercase;
-    font-size: 25px;
+    font-size: 35px;
     color: black;
     font-weight: 300;
+    font-variant: small-caps;
 }
 
 h2 {
@@ -59,7 +64,61 @@ figure {
 }
 /* MAIN */
 
+blockquote {
+    background-color: #e2e3e2;
+    height: 11vh;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px; 
+    font-weight:200
+    font-style: italic; 
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.paragrafo-cit {
+    padding-top: 20px;
+    font-weight:400;
+    font-style: italic;
+}
+
 /* ELEMENTI NEL MAIN */
+
+address {
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+mark {
+    background-color: #027695;
+    color: white;
+}
+
+hr {
+    border: 1px dashed grey;
+    max-width: 85%;
+}
+
+.paragrafo-about {
+    font-weight: bolder;
+    margin-left: 5%;
+}
+
+.paragrafo-presentazione {
+    text-align:left;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight:bolder;
+    
+}
+
+strong {
+    color: #00a0c6;
+}
+
+h3 {
+    font-weight: bolder;
+}
 
 /* FOOTER */
 
@@ -69,4 +128,22 @@ footer {
     border-top: 10px;
     border-top-style: solid;
     text-align: center;
+}
+
+.paragrafo-footer {
+    color: white;
+}
+.paragrafo3-footer {
+    color: white;
+}
+
+small {
+    font-size: smaller;
+    color: #8f9397;
+}
+
+kbd {
+    color: yellow;
+    font-style: italic;
+    
 }
